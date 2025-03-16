@@ -1,0 +1,79 @@
+body {
+    background: rgb(30, 30, 32);
+    color: silver;
+    padding: 10px;
+    font-family:monospace;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(236, 133, 30);
+    flex: 1;
+    margin: 0;
+}
+nav ul {
+    list-style-image: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: rgb(23, 197, 23)
+}
+
+/* main container area beneath menu */
+main {
+    background: black;
+    display: flex;
+    border-radius: 5px;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar img {
+    width: 200px;
+    border-radius: 5px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+/* interests section styles */
+#interests {
+    border: 2px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+h2, h3 {
+    margin: 0px;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}

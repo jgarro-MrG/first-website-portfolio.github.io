@@ -1,0 +1,22 @@
+/* Portfolio styles */
+  
+  #portfolio {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #portfolio li {
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio li:hover {
+    background: #003b0f;
+  }
+  
+  #portfolio a {
+    text-decoration: none;
+    color: silver;
+  }
